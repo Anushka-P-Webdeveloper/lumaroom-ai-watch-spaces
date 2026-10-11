@@ -1,0 +1,25 @@
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Frontend dependencies and caches
+frontend/node_modules/
+frontend/.vite/
+
+# macOS
+.DS_Store

@@ -1,0 +1,9 @@
+alembic
+fastapi
+httpx
+psycopg[binary]
+pyjwt
+pytest
+redis
+sqlalchemy
+uvicorn[standard]

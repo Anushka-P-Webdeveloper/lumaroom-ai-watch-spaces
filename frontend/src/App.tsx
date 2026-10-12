@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 
-const API = (import.meta as any).env.VITE_API || "http://localhost:8000";
+const API = (import.meta as any).env.VITE_API || "https://lumaroom-ai-watch-spaces.onrender.com";
 const WS = API.replace(/^http/, "ws");
 type Title = {
   id: number;
